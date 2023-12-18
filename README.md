@@ -48,7 +48,9 @@ const myJSON = JSON.stringify(obj);
 ## 학습 출처
 - 유튜브     
 https://www.youtube.com/@JavaScriptKing   
+
 - JS     
 https://ko.javascript.info/forms-submit     
-https://www.w3schools.com/jsref/event_onsubmit.asp    
+https://www.w3schools.com/jsref/event_onsubmit.asp     
+https://www.w3schools.com/js/js_json_stringify.asp      
 
