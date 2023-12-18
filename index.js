@@ -1,3 +1,4 @@
+// 1-9사이의 정수를 num1, num2로 대입
 const num1 = Math.ceil(Math.random()*10);
 const num2 = Math.ceil(Math.random()*10);
 
@@ -20,6 +21,7 @@ const correctAns = num1 * num2;
 
 formEl.addEventListener("submit", () => {
   const userAns = +inputEl.value;
+  console.log(userAns);
   if(userAns === correctAns) {
     score++;
     updateLocalStorage();
